@@ -25,8 +25,8 @@
                     { 
                         if (depositAmount >= 0)
                         {
-                        account1.Deposit(depositAmount);
-                        Console.WriteLine($"Your deposit of {depositAmount} dollars was successful");
+                            account1.Deposit(depositAmount);
+                            Console.WriteLine($"Your deposit of {depositAmount} dollars was successful");
                         }
                         else
                         {
