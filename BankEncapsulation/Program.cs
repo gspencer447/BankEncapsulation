@@ -59,12 +59,12 @@
                         double accountBalance = account1.GetBalance();
                         Console.WriteLine($"Your account balance is {accountBalance} dollars.");
                     }
-                    else if (selection == "4")
+                else if (selection == "4")
                     {
                         Console.WriteLine("Thank you for banking with us!");
                         Environment.Exit(0);
                     }
-                    else 
+                else 
                     {
                         Console.WriteLine("Please input a valid selection");
                     }
